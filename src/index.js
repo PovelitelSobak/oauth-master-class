@@ -11,7 +11,7 @@ window.onload = () => {
         view: "button",
         parentId: "buttonContainer",
         buttonSize: "xs",
-        buttonView: "main",
+        buttonView: "additional",
         buttonTheme: "light",
         buttonBorderRadius: "20",
         buttonIcon: "ya",
