@@ -24,6 +24,7 @@ window.onload = () => {
         authorize(result);
 
         console.log(result, data);
+        console.log("Проверка");
       })
       .catch((error) => console.log("Что-то пошло не так: ", error));
   };
