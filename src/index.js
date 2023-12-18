@@ -18,15 +18,7 @@ window.onload = () => {
       }
     )
       .then(({ handler }) => handler())
-      .then(async (data) => {
-        const result = await fetchYandexData(data.access_token);
-
-        authorize(result);
-
-        console.log(result, data);
-        console.log("Проверка");
-      })
-      .catch((error) => console.log("Что-то пошло не так: ", error));
-  };
+      .then((data) => console.log("Сообщение с токеном", data))
+      .catch((error) => console.log("Обработка ошибки", error));
   };
 };
