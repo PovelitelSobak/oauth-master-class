@@ -10,10 +10,10 @@ window.onload = () => {
       {
         view: "button",
         parentId: "buttonContainer",
-        buttonSize: "m",
+        buttonSize: "xs",
         buttonView: "main",
-        buttonTheme: "light",
-        buttonBorderRadius: "0",
+        buttonTheme: "dark",
+        buttonBorderRadius: "20",
         buttonIcon: "ya",
       }
     )
